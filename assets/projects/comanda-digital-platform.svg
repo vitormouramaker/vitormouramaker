@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Comanda Digital: Pedidos por QR code: cardápio no celular do cliente, Kanban da cozinha, estoque, mesas e equipe por espaço.">
+  <title>Comanda Digital: Pedidos por QR code: cardápio no celular do cliente, Kanban da cozinha, estoque, mesas e equipe por espaço.</title>
+  <defs>
+    <linearGradient id="c4bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1022"/><stop offset="1" stop-color="#121633"/></linearGradient>
+    <linearGradient id="c4b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb7185"/><stop offset="0.45" stop-color="#fb7185" stop-opacity="0.05"/><stop offset="0.55" stop-color="#a78bfa" stop-opacity="0.05"/><stop offset="1" stop-color="#a78bfa"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="c4glow" cx="0.85" cy="0.1" r="0.6"><stop offset="0" stop-color="#fb7185" stop-opacity="0.35"/><stop offset="1" stop-color="#fb7185" stop-opacity="0"/></radialGradient>
+    <clipPath id="c4clip"><rect width="600" height="300" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .in { opacity: 0; animation: in 0.8s ease-out forwards; }
+    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.25s; } .d3 { animation-delay: 0.4s; }
+    @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .glow { animation: breathe 5s ease-in-out infinite; }
+    @keyframes breathe { 50% { opacity: 0.45; } }
+    .kicker { font: 700 12px 'Segoe UI', 'Inter', 'Helvetica Neue', Ubuntu, Arial, sans-serif; fill: #fb7185; letter-spacing: 2px; }
+    .title { font: 800 30px 'Segoe UI', 'Inter', 'Helvetica Neue', Ubuntu, Arial, sans-serif; fill: #f8fafc; letter-spacing: -0.5px; }
+    .desc { font: 400 16px 'Segoe UI', 'Inter', 'Helvetica Neue', Ubuntu, Arial, sans-serif; fill: #cbd5e1; }
+    .chip { font: 600 12.5px 'Segoe UI', 'Inter', 'Helvetica Neue', Ubuntu, Arial, sans-serif; fill: #e2e8f0; }
+    .repo { font: 500 13px 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; fill: #94a3b8; }
+    .arrow { animation: nudge 1.8s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translateX(5px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+  </style>
+  <g clip-path="url(#c4clip)">
+    <rect width="600" height="300" fill="url(#c4bg)"/>
+    <rect width="600" height="300" fill="url(#c4glow)" class="glow"/>
+  </g>
+  <rect x="1" y="1" width="598" height="298" rx="19" fill="none" stroke="url(#c4b)" stroke-width="2"/>
+  <g class="in"><text x="32" y="46" class="kicker">WEB · RESTAURANTES</text></g>
+  <g class="in d1"><text x="32" y="86" class="title">Comanda Digital</text></g>
+  <g class="in d2"><text x="32" y="124" class="desc">Pedidos por QR code: cardápio no celular do cliente, Kanban da</text><text x="32" y="148" class="desc">cozinha, estoque, mesas e equipe por espaço.</text></g>
+  <g class="in d3"><g><rect x="32" y="226" width="82.8" height="28" rx="14" fill="#fb7185" fill-opacity="0.14" stroke="#fb7185" stroke-opacity="0.5"/><text x="73.4" y="245" class="chip" text-anchor="middle">React 19</text></g><g><rect x="122.8" y="226" width="98" height="28" rx="14" fill="#fb7185" fill-opacity="0.14" stroke="#fb7185" stroke-opacity="0.5"/><text x="171.8" y="245" class="chip" text-anchor="middle">TypeScript</text></g><g><rect x="228.8" y="226" width="82.8" height="28" rx="14" fill="#fb7185" fill-opacity="0.14" stroke="#fb7185" stroke-opacity="0.5"/><text x="270.2" y="245" class="chip" text-anchor="middle">Tailwind</text></g><g><rect x="319.6" y="226" width="120.8" height="28" rx="14" fill="#fb7185" fill-opacity="0.14" stroke="#fb7185" stroke-opacity="0.5"/><text x="380" y="245" class="chip" text-anchor="middle">Framer Motion</text></g></g>
+  <text x="568" y="46" class="repo" text-anchor="end">comanda-digital-platform <tspan class="arrow">→</tspan></text>
+</svg>

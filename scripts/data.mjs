@@ -1,0 +1,190 @@
+// Conteúdo do perfil. Edite aqui e rode `node scripts/build.mjs`.
+
+export const PROFILE = {
+  name: "Vitor Moura",
+  headline: "Front-end & Full Stack Developer",
+  roles: [
+    "Desenvolvedor Front-end",
+    "React · TypeScript · Next.js",
+    "Interfaces animadas e acessíveis",
+    "Apps com React Native e Expo",
+    "Full Stack com Node.js e IA",
+  ],
+  meta: "📍 Teresina, PI · Brasil   ·   ⚡ Produtos web, mobile e desktop em produção",
+  footer: "Obrigado pela visita! Vamos construir algo juntos? ✨",
+  github: "vitormouramaker",
+  contacts: [
+    { id: "linkedin", label: "LinkedIn", value: "in/vitor-moura-dev", href: "https://www.linkedin.com/in/vitor-moura-dev", color: "#0a66c2", icon: "in" },
+    { id: "email", label: "E-mail", value: "webdesignervitorgox@gmail.com", href: "mailto:webdesignervitorgox@gmail.com", color: "#ea4335", icon: "@" },
+  ],
+  about: [
+    "Sou desenvolvedor **front-end e full stack**. Construo produtos de ponta a ponta, da interface ao banco, e é no front que eu mais gosto de estar: tela bem resolvida, animação com propósito e interação que não deixa o usuário pensar duas vezes.",
+    "Hoje trabalho em produtos que rodam em produção em uma empresa de tecnologia: plataforma por assinatura com agente de IA, apps mobile, PDV desktop, sistema de orçamentos, assistente com RAG e plataformas para restaurantes. Os repositórios abaixo são versões **anonimizadas** desses sistemas, com dados e marcas fictícios, e todos rodam localmente.",
+  ],
+  frontend: [
+    "**Design system próprio** nos meus produtos: botões, campos, modais, toasts e skeletons consistentes, com tema claro e escuro por variáveis CSS.",
+    "**Animação com propósito**: transições de entrada, feedback de ação e carregamento, sempre respeitando `prefers-reduced-motion`.",
+    "**Estado bem separado**: TanStack Query para o que vem do servidor, Zustand só para o que é da tela, formulários com React Hook Form + Zod.",
+    "**Experiência de verdade**: responsivo do celular ao desktop, impressão e PDF caprichados, atalhos de teclado e leitor de código de barras no PDV.",
+    "**Front que aguenta produção**: TypeScript, testes com Vitest, divisão de código no build e tratamento de erro que não deixa a tela em branco.",
+  ],
+  projectsNote: "Clique em um card para abrir o repositório. Cada README explica a arquitetura, o que foi construído e como rodar localmente.",
+  extras: [
+    "🎮 **Nas horas vagas** eu crio jogos: um tower defense isométrico ([site do Rift Guardians](https://github.com/vitormouramaker/riftguardians-site)) e um MMORPG em pixel art no navegador.",
+  ],
+};
+
+export const STACK = [
+  {
+    title: "Front-end",
+    subtitle: "onde eu mais gosto de estar",
+    items: [
+      { name: "React", color: "#61dafb" },
+      { name: "TypeScript", color: "#3b82f6" },
+      { name: "Next.js", color: "#e2e8f0" },
+      { name: "Vite", color: "#a78bfa" },
+      { name: "Tailwind CSS", color: "#38bdf8" },
+      { name: "TanStack Query", color: "#fb7185" },
+      { name: "Zustand", color: "#f59e0b" },
+      { name: "React Router", color: "#f87171" },
+      { name: "Framer Motion", color: "#e879f9" },
+      { name: "Recharts", color: "#22c55e" },
+    ],
+  },
+  {
+    title: "Mobile & Desktop",
+    subtitle: "um código, várias telas",
+    items: [
+      { name: "React Native", color: "#61dafb" },
+      { name: "Expo", color: "#e2e8f0" },
+      { name: "NativeWind", color: "#38bdf8" },
+      { name: "Tauri", color: "#24c8db" },
+    ],
+  },
+  {
+    title: "Back-end & Dados",
+    subtitle: "APIs, filas e bancos",
+    items: [
+      { name: "Node.js", color: "#84cc16" },
+      { name: "Express", color: "#cbd5e1" },
+      { name: "PostgreSQL", color: "#60a5fa" },
+      { name: "pgvector", color: "#818cf8" },
+      { name: "Firebase", color: "#fbbf24" },
+      { name: "Zod", color: "#7c9cff" },
+    ],
+  },
+  {
+    title: "IA & Integrações",
+    subtitle: "produtos que conversam",
+    items: [
+      { name: "Claude API", color: "#f97316" },
+      { name: "OpenAI", color: "#10b981" },
+      { name: "RAG", color: "#a78bfa" },
+      { name: "Mercado Pago", color: "#0ea5e9" },
+      { name: "Webhooks", color: "#f472b6" },
+    ],
+  },
+  {
+    title: "Qualidade & Infra",
+    subtitle: "do teste ao deploy",
+    items: [
+      { name: "Vitest", color: "#a3e635" },
+      { name: "Jest", color: "#f87171" },
+      { name: "Docker", color: "#3b82f6" },
+      { name: "GitHub Actions", color: "#60a5fa" },
+      { name: "Git", color: "#fb923c" },
+    ],
+  },
+];
+
+// Ordem = ordem no perfil. `slug` é o nome do repositório.
+export const PROJECTS = [
+  {
+    slug: "gestao-360-platform",
+    kicker: "SaaS · IA",
+    title: "Gestão 360°",
+    description: "Plataforma por assinatura em que um agente de IA escreve o diagnóstico e o plano de ação de cada empresa. Painel admin completo.",
+    tags: ["React 19", "TypeScript", "Tailwind", "Node.js", "Claude"],
+    accent: "#22c55e",
+  },
+  {
+    slug: "mastermind-community-platform",
+    kicker: "Web + Mobile · Tempo real",
+    title: "Círculo",
+    description: "Comunidade de empresários com app e web: chat em tempo real, eventos com check-in por QR, aulas em vídeo, gamificação e painel admin.",
+    tags: ["Next.js 16", "React Native", "Socket.IO", "TypeScript"],
+    accent: "#eab308",
+  },
+  {
+    slug: "task-management-saas",
+    kicker: "SaaS · Produtividade",
+    title: "Pauta",
+    description: "Gestão de tarefas multiempresa com kanban, lista, tabela, timeline e calendário, automações, assinaturas e tempo real.",
+    tags: ["React 19", "TypeScript", "Tailwind 4", "dnd-kit", "Stripe"],
+    accent: "#06b6d4",
+  },
+  {
+    slug: "event-quote-platform",
+    kicker: "Web · Motor de cálculo",
+    title: "Orça Eventos",
+    description: "Orçamentos de formatura com motor de cálculo, aprovação de descontos, versões, contratos e auditoria. 181 testes no front.",
+    tags: ["React 19", "TypeScript", "TanStack", "Zustand", "Vitest"],
+    accent: "#f59e0b",
+  },
+  {
+    slug: "comanda-digital-platform",
+    kicker: "Web · Restaurantes",
+    title: "Comanda Digital",
+    description: "Pedidos por QR code: cardápio no celular do cliente, Kanban da cozinha, estoque, mesas e equipe por espaço.",
+    tags: ["React 19", "TypeScript", "Tailwind", "Framer Motion"],
+    accent: "#fb7185",
+  },
+  {
+    slug: "marketplace-servicos-expo-firebase",
+    kicker: "Mobile · Marketplace",
+    title: "ProConecta",
+    description: "Marketplace de serviços com carteira de moedas, vagas, chat, Premium e pagamentos, sobre regras do Firestore endurecidas.",
+    tags: ["React Native", "Expo Router", "Firebase", "TypeScript"],
+    accent: "#f97316",
+  },
+  {
+    slug: "shared-calendar-ai",
+    kicker: "Mobile · IA",
+    title: "Calendo",
+    description: "Agenda compartilhada com convites, permissões e um assistente de IA que agenda por texto e mostra conflitos antes de salvar.",
+    tags: ["Expo", "React Native", "NativeWind", "OpenAI"],
+    accent: "#38bdf8",
+  },
+  {
+    slug: "acervo-knowledge-assistant",
+    kicker: "IA · RAG",
+    title: "Acervo",
+    description: "Assistente que responde com base nos documentos da empresa, com citações validadas, multiempresa com RLS e busca vetorial.",
+    tags: ["React 19", "TypeScript", "pgvector", "Claude", "Docker"],
+    accent: "#a78bfa",
+  },
+  {
+    slug: "balcao-pdv-desktop",
+    kicker: "Desktop · Varejo",
+    title: "Balcão PDV",
+    description: "Ponto de venda desktop pensado para teclado e leitor de código de barras, com pagamento dividido na maquininha e caixa.",
+    tags: ["Tauri 2", "Rust", "React", "TypeScript"],
+    accent: "#24c8db",
+  },
+  {
+    slug: "crm-erp-saas-platform",
+    kicker: "SaaS · Projeto de equipe",
+    title: "Órbita CRM",
+    description: "CRM/ERP multiempresa com caixa de entrada do WhatsApp, funil de vendas, PDV, estoque e financeiro. Projeto de equipe.",
+    tags: ["React 19", "TypeScript", "Expo", "WhatsApp API"],
+    accent: "#a3e635",
+  },
+  {
+    slug: "lead-pipeline-dashboard",
+    kicker: "Web · Projeto de equipe",
+    title: "Painel de Leads",
+    description: "Dashboard comercial com importação de planilha CSV, cards por status, gráfico, filtros e login. Projeto de equipe.",
+    tags: ["React", "Recharts", "Express", "PostgreSQL"],
+    accent: "#60a5fa",
+  },
+];

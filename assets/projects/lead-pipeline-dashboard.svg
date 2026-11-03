@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Painel de Leads: Dashboard comercial com importação de planilha CSV, cards por status, gráfico, filtros e login. Projeto de equipe.">
+  <title>Painel de Leads: Dashboard comercial com importação de planilha CSV, cards por status, gráfico, filtros e login. Projeto de equipe.</title>
+  <defs>
+    <linearGradient id="c10bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1022"/><stop offset="1" stop-color="#121633"/></linearGradient>
+    <linearGradient id="c10b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/><stop offset="0.45" stop-color="#60a5fa" stop-opacity="0.05"/><stop offset="0.55" stop-color="#a78bfa" stop-opacity="0.05"/><stop offset="1" stop-color="#a78bfa"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="c10glow" cx="0.85" cy="0.1" r="0.6"><stop offset="0" stop-color="#60a5fa" stop-opacity="0.35"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/></radialGradient>
+    <clipPath id="c10clip"><rect width="600" height="300" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .in { opacity: 0; animation: in 0.8s ease-out forwards; }
+    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.25s; } .d3 { animation-delay: 0.4s; }
+    @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .glow { animation: breathe 5s ease-in-out infinite; }
+    @keyframes breathe { 50% { opacity: 0.45; } }
+    .kicker { font: 700 12px 'Segoe UI', 'Inter', 'Helvetica Neue', Ubuntu, Arial, sans-serif; fill: #60a5fa; letter-spacing: 2px; }
+    .title { font: 800 30px 'Segoe UI', 'Inter', 'Helvetica Neue', Ubuntu, Arial, sans-serif; fill: #f8fafc; letter-spacing: -0.5px; }
+    .desc { font: 400 16px 'Segoe UI', 'Inter', 'Helvetica Neue', Ubuntu, Arial, sans-serif; fill: #cbd5e1; }
+    .chip { font: 600 12.5px 'Segoe UI', 'Inter', 'Helvetica Neue', Ubuntu, Arial, sans-serif; fill: #e2e8f0; }
+    .repo { font: 500 13px 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; fill: #94a3b8; }
+    .arrow { animation: nudge 1.8s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translateX(5px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+  </style>
+  <g clip-path="url(#c10clip)">
+    <rect width="600" height="300" fill="url(#c10bg)"/>
+    <rect width="600" height="300" fill="url(#c10glow)" class="glow"/>
+  </g>
+  <rect x="1" y="1" width="598" height="298" rx="19" fill="none" stroke="url(#c10b)" stroke-width="2"/>
+  <g class="in"><text x="32" y="46" class="kicker">WEB · PROJETO DE EQUIPE</text></g>
+  <g class="in d1"><text x="32" y="86" class="title">Painel de Leads</text></g>
+  <g class="in d2"><text x="32" y="124" class="desc">Dashboard comercial com importação de planilha CSV, cards por</text><text x="32" y="148" class="desc">status, gráfico, filtros e login. Projeto de equipe.</text></g>
+  <g class="in d3"><g><rect x="32" y="226" width="60" height="28" rx="14" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.5"/><text x="62" y="245" class="chip" text-anchor="middle">React</text></g><g><rect x="100" y="226" width="82.8" height="28" rx="14" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.5"/><text x="141.4" y="245" class="chip" text-anchor="middle">Recharts</text></g><g><rect x="190.8" y="226" width="75.19999999999999" height="28" rx="14" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.5"/><text x="228.4" y="245" class="chip" text-anchor="middle">Express</text></g><g><rect x="274" y="226" width="98" height="28" rx="14" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.5"/><text x="323" y="245" class="chip" text-anchor="middle">PostgreSQL</text></g></g>
+  <text x="568" y="46" class="repo" text-anchor="end">lead-pipeline-dashboard <tspan class="arrow">→</tspan></text>
+</svg>
