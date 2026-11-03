@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 230" width="600" height="230" role="img" aria-label="Gestão 360°: Plataforma por assinatura em que um agente de IA redige o diagnóstico e o plano de ação de cada cliente, com revisão da equipe e painel administrativo.">
+  <title>Gestão 360°: Plataforma por assinatura em que um agente de IA redige o diagnóstico e o plano de ação de cada cliente, com revisão da equipe e painel administrativo.</title>
+  <style>
+    .in { opacity: 0; animation: in 0.7s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    .rule { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.2s ease-out 0.2s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .in, .rule { animation: none; opacity: 1; stroke-dashoffset: 0; } }
+    .cat { font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #59636e; letter-spacing: 1.2px; }
+    .title { font: 700 26px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .desc { font: 400 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .stack { font: 400 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #59636e; }
+    .repo { font: 400 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #59636e; }
+  </style>
+  <rect x="0.5" y="0.5" width="599" height="229" rx="12" fill="#ffffff" stroke="#d1d9e0"/>
+  <g class="in">
+    <text x="28" y="42" class="cat">SAAS · IA</text>
+    <text x="28" y="80" class="title">Gestão 360°</text>
+    <text x="28" y="114" class="desc">Plataforma por assinatura em que um agente de IA redige o</text>
+    <text x="28" y="137" class="desc">diagnóstico e o plano de ação de cada cliente, com revisão da</text>
+    <text x="28" y="160" class="desc">equipe e painel administrativo.</text>
+  </g>
+  <line x1="28" y1="182" x2="572" y2="182" stroke="#d1d9e0"/>
+  <g class="in" style="animation-delay:0.15s">
+    <text x="28" y="208" class="stack">React 19  ·  TypeScript  ·  Node.js  ·  PostgreSQL  ·  Claude API</text>
+    <text x="572" y="42" class="repo" text-anchor="end">gestao-360-platform</text>
+  </g>
+</svg>
